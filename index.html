@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <img width="35" height="45" src="./assets/alura-logo.png" class="logo" />
+            <div class="principale">
+                <textarea class="text-area" id="input" name="w3review" rows="4" cols="50">
+                Ingrese el texto aqui
+                </textarea>
+                <p class="note">&#x2755 Solo letras minusculas y sin acento</p>
+                <div class="buttons">
+                    <button id="encript-button" class="encript-button">Encriptar</button>
+                    <button id="desencript-button" class="desencript-button">Desencriptar</button>
+                </div>
+            </div>
+            <div class="results">
+                <div class="no-results" id="no-results">
+                    <img width="200px" height="200px" src="./assets/search-asset.png" class="search-asset" />
+                    <h4>Ningun Mensaje fue encontrado</h4>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+                <div class="exist-results" id="exist-results">
+                    <p class="output" id="output"></p>
+                </div>
+                <button id="copy-button" class="copy-button">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
